@@ -1,0 +1,15 @@
+/Users/mac/CrossProgr/Lab1/Lab1/bin/Debug/net5.0/Lab1.deps.json
+/Users/mac/CrossProgr/Lab1/Lab1/bin/Debug/net5.0/Lab1.runtimeconfig.json
+/Users/mac/CrossProgr/Lab1/Lab1/bin/Debug/net5.0/Lab1.runtimeconfig.dev.json
+/Users/mac/CrossProgr/Lab1/Lab1/bin/Debug/net5.0/Lab1.dll
+/Users/mac/CrossProgr/Lab1/Lab1/bin/Debug/net5.0/ref/Lab1.dll
+/Users/mac/CrossProgr/Lab1/Lab1/bin/Debug/net5.0/Lab1.pdb
+/Users/mac/CrossProgr/Lab1/Lab1/obj/Debug/net5.0/Lab1.csprojAssemblyReference.cache
+/Users/mac/CrossProgr/Lab1/Lab1/obj/Debug/net5.0/Lab1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/CrossProgr/Lab1/Lab1/obj/Debug/net5.0/Lab1.AssemblyInfoInputs.cache
+/Users/mac/CrossProgr/Lab1/Lab1/obj/Debug/net5.0/Lab1.AssemblyInfo.cs
+/Users/mac/CrossProgr/Lab1/Lab1/obj/Debug/net5.0/Lab1.csproj.CoreCompileInputs.cache
+/Users/mac/CrossProgr/Lab1/Lab1/obj/Debug/net5.0/Lab1.dll
+/Users/mac/CrossProgr/Lab1/Lab1/obj/Debug/net5.0/ref/Lab1.dll
+/Users/mac/CrossProgr/Lab1/Lab1/obj/Debug/net5.0/Lab1.pdb
+/Users/mac/CrossProgr/Lab1/Lab1/obj/Debug/net5.0/Lab1.genruntimeconfig.cache
