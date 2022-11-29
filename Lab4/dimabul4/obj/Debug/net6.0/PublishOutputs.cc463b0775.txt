@@ -1,8 +1,0 @@
-/Users/mac/Downloads/dimabul4/dimabul4/bin/Debug/net6.0/publish/dimabul4
-/Users/mac/Downloads/dimabul4/dimabul4/bin/Debug/net6.0/publish/dimabul4.dll
-/Users/mac/Downloads/dimabul4/dimabul4/bin/Debug/net6.0/publish/dimabul4.runtimeconfig.json
-/Users/mac/Downloads/dimabul4/dimabul4/bin/Debug/net6.0/publish/dimabul4.pdb
-/Users/mac/Downloads/dimabul4/dimabul4/bin/Debug/net6.0/publish/McMaster.Extensions.CommandLineUtils.dll
-/Users/mac/Downloads/dimabul4/dimabul4/bin/Debug/net6.0/publish/LabsLibrary.dll
-/Users/mac/Downloads/dimabul4/dimabul4/bin/Debug/net6.0/publish/LabsLibrary.pdb
-/Users/mac/Downloads/dimabul4/dimabul4/bin/Debug/net6.0/publish/dimabul4.deps.json
