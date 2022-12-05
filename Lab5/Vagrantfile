@@ -1,0 +1,33 @@
+Vagrant.configure("2") do |config|
+
+  config.vm.box = "bento/ubuntu-18.04"
+
+  config.vm.box_check_update=false
+  config.ssh.insert_key=false
+
+  config.vm.network "forwarded_port", guest: 5001, host: 5003
+  config.vm.network "forwarded_port", guest: 5000, host: 5004
+  
+  
+  config.vm.provider "virtualbox" do |vb|
+    vb.name="ubuntu-local"
+    vb.memory=2048
+    vb.cpus=2
+    vb.gui=true
+    vb.customize ['modifyvm', :id, '--cableconnected1', 'on']
+
+   end
+  config.vm.hostname="ubuntu-local-test3"
+
+  config.vm.provision "shell", inline:"sudo apt-get update"
+  config.vm.provision "shell", inline:"wget https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb"
+  config.vm.provision "shell", inline:"sudo dpkg -i packages-microsoft-prod.deb"
+  config.vm.provision "shell", inline:"sudo apt-get update"
+  config.vm.provision "shell", inline:"sudo apt-get install -y dotnet-sdk-6.0"
+  config.vm.provision "shell", inline:"sudo apt-get update"
+
+  config.vm.synced_folder "/Users/mac/Downloads/db-lab5/db-lab5/bin/Debug/net6.0/publish", "/vagrant_lab5"
+
+  #dotnet /vagrant_lab5/db-lab5.dll
+
+end
