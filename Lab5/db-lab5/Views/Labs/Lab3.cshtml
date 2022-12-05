@@ -1,0 +1,47 @@
+﻿@model Lab3DataModel
+
+@{
+	ViewData["Title"] = "Third one";
+}
+
+<h1>@ViewData["Title"]</h1>
+<text> &nbsp; &nbsp; &nbsp;</text>
+<h2>In a table with 3 rows and 3 columns, some cells are occupied by balls, others are free. The ball to be moved and the place where it is to be moved are selected. The selected ball moves in one step to a free cell adjacent horizontally or vertically. It is required to find out whether it is possible to move the ball from the initial cell to the given one, and, if possible, then find the path from the least number of steps.</h2>
+
+<text> &nbsp; &nbsp; &nbsp;</text>
+
+<form method="post" enctype="multipart/form-data" asp-controller="Labs" asp-action="Lab3">
+	<div class="form-group">
+		<label for="psize">First line</label>
+		<input type="text" class="form-control" id="line" asp-for="FirstInputLine">
+	</div>
+	<div class="form-group">
+		<label for="pdata">Second line</label>
+		<input type="text" class="form-control" id="line" asp-for="SecondInputLine">
+	</div>
+	<div class="form-group">
+		<label for="pdata">Third line</label>
+		<input type="text" class="form-control" id="line" asp-for="ThirdInputLine">
+	</div>
+	<button type="submit" class="btn btn-primary mt-3">Submit</button>
+</form>
+
+<text> &nbsp; &nbsp; &nbsp;</text>
+<text> &nbsp; &nbsp; &nbsp;</text>
+
+@if (Model != null)
+{
+	<div class="container mt5">
+		<div class="form-group">
+			<h2>Result</h2>
+			<h2 class="control-label">Output: @(Model != null ? Model.Calculated : string.Empty)</h2>
+		</div>
+		@if (Model != null && !string.IsNullOrEmpty(Model.ErrorValue))
+		{
+			<div class="row">
+				<label for="perror"></label>
+				<input type="text" id="perror" value="@Model.ErrorValue">
+			</div>
+		}
+	</div>
+}
